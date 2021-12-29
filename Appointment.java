@@ -8,4 +8,14 @@ public class Appointment {
     String doctorId;
     Date appointmentDate;
     int roomNumber;
+
+    @Override
+    public String toString() {
+        return "Appointment{" +
+                "patientId='" + patientId + '\'' +
+                ", doctorId='" + doctorId + '\'' +
+                ", appointmentDate=" + appointmentDate +
+                ", roomNumber=" + roomNumber +
+                '}';
+    }
 }
